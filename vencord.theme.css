@@ -1,0 +1,26 @@
+/**
+ * @name Adna Light Discord Theme
+ * @author mmishbah
+ * @version 0.1.0
+ * @description Adna light theme for Discord
+ * @source https://github.com/fross100/adna
+ **/
+
+:root {
+    --color00: #F5F5F5;
+    --color01: #E0E0E0;
+    --color02: #00BCD4;
+    --color03: #607D8B;
+    --color04: #FF69B4;
+    --color05: #00ACC1;
+    --color06: #455A64;
+    --color07: #2D2D2D;
+    --color08: #78909C;
+    --color09: #00BCD4;
+    --color10: #00ACC1;
+    --color11: #0097A7;
+    --color12: #0097A7;
+    --color13: #FF69B4;
+    --color14: #00BCD4;
+    --color15: #37474F;
+}

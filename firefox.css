@@ -1,0 +1,18 @@
+:root {
+  --color00: #F5F5F5; /* base background */
+  --color01: #FFFFFF; /* elevated background */
+  --color02: #E0E0E0; /* subtle borders */
+  --color03: #607D8B; /* muted text */
+  --color04: #FF69B4; /* secondary text */
+  --color05: #2D2D2D; /* primary text */
+  --color06: #00BCD4; /* highlights */
+  --color07: #455A64; /* pure dark */
+  --color08: #FF69B4; /* red - accent pink */
+  --color09: #00BCD4; /* cyan - accent cyan */
+  --color0A: #00ACC1; /* yellow - lighter cyan */
+  --color0B: #FF69B4; /* green - accent pink */
+  --color0C: #607D8B; /* cyan - gray */
+  --color0D: #FF69B4; /* blue - accent pink */
+  --color0E: #78909C; /* magenta - lighter gray */
+  --color0F: #FF1493; /* bright red - deep pink */
+}

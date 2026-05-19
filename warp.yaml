@@ -1,0 +1,26 @@
+name: Adna Light
+accent: "#00BCD4"
+cursor: "#00BCD4"
+background: "#F5F5F5"
+foreground: "#2D2D2D"
+details: lighter
+
+terminal_colors:
+  normal:
+    black: "#607D8B"
+    red: "#FF69B4"
+    green: "#00BCD4"
+    yellow: "#00ACC1"
+    blue: "#0097A7"
+    magenta: "#FF69B4"
+    cyan: "#00BCD4"
+    white: "#455A64"
+  bright:
+    black: "#78909C"
+    red: "#FF69B4"
+    green: "#00BCD4"
+    yellow: "#00ACC1"
+    blue: "#0097A7"
+    magenta: "#FF69B4"
+    cyan: "#00BCD4"
+    white: "#37474F"
