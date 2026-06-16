@@ -10,7 +10,8 @@
 /* =============================================
  * Base Color Definitions (matches adna/colors.toml)
  * ============================================= */
-@define-color background #F5F5F5;
+@define-color background #E8FDFF;
+@define-color foreground #2D2D2D; /* Alias for light_text - used by nautilus-finder hook */
 @define-color pink_accent #FF69B4; /* Original foreground, reserved for accents only */
 @define-color light_text #2D2D2D; /* Readable dark text for all UI text */
 @define-color selection_bg #B2EBF2;

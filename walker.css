@@ -1,9 +1,9 @@
 @define-color selected-text #FF69B4;
 @define-color text #2D2D2D;
-@define-color base #F5F5F5;
+@define-color base #E8FDFF;
 @define-color border #00BCD4;
 @define-color foreground #00BCD4;
-@define-color background #F5F5F5;
+@define-color background #E8FDFF;
 @define-color selection_bg #B2EBF2;
 
 window .box-wrapper {

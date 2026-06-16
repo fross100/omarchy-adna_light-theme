@@ -1,4 +1,4 @@
-set -l color00 '#F5F5F5'
+set -l color00 '#E8FDFF'
 set -l color01 '#B2EBF2'
 set -l color02 '#00BCD4'
 set -l color03 '#607D8B'

@@ -1,4 +1,4 @@
-set -l background F5F5F5
+set -l background E8FDFF
 set -l foreground 2D2D2D
 set -l selection B2EBF2
 set -l comment 607D8B
