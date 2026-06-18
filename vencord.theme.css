@@ -9,18 +9,18 @@
 :root {
     --color00: #E8FDFF;
     --color01: #E0E0E0;
-    --color02: #00BCD4;
+    --color02: #1A237E;
     --color03: #607D8B;
     --color04: #FF69B4;
-    --color05: #00ACC1;
+    --color05: #1A237E;
     --color06: #455A64;
     --color07: #2D2D2D;
-    --color08: #78909C;
-    --color09: #00BCD4;
-    --color10: #00ACC1;
-    --color11: #0097A7;
-    --color12: #0097A7;
+    --color08: #455A64;
+    --color09: #1A237E;
+    --color10: #1A237E;
+    --color11: #1A237E;
+    --color12: #1A237E;
     --color13: #FF69B4;
-    --color14: #00BCD4;
+    --color14: #1A237E;
     --color15: #37474F;
 }

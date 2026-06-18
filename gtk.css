@@ -14,25 +14,25 @@
 @define-color foreground #2D2D2D; /* Alias for light_text - used by nautilus-finder hook */
 @define-color pink_accent #FF69B4; /* Original foreground, reserved for accents only */
 @define-color light_text #2D2D2D; /* Readable dark text for all UI text */
-@define-color selection_bg #B2EBF2;
+@define-color selection_bg #1A237E;
 @define-color selection_fg #2D2D2D;
 
 /* ANSI Color Palette (matches colors.toml) */
 @define-color black #607D8B; /* color0 */
-@define-color red #00BCD4; /* color1 (accent color) */
-@define-color green #00ACC1; /* color2 */
-@define-color yellow #0097A7; /* color3 */
-@define-color blue #00838F; /* color4 */
-@define-color magenta #00BCD4; /* color5 */
-@define-color cyan #0097A7; /* color6 */
+@define-color red #1A237E; /* color1 (accent color) */
+@define-color green #1A237E; /* color2 */
+@define-color yellow #1A237E; /* color3 */
+@define-color blue #1A237E; /* color4 */
+@define-color magenta #1A237E; /* color5 */
+@define-color cyan #1A237E; /* color6 */
 @define-color white #455A64; /* color7 */
-@define-color bright_black #78909C; /* color8 */
-@define-color bright_red #00BCD4; /* color9 */
-@define-color bright_green #00ACC1; /* color10 */
-@define-color bright_yellow #0097A7; /* color11 */
-@define-color bright_blue #00838F; /* color12 */
-@define-color bright_magenta #00BCD4; /* color13 */
-@define-color bright_cyan #0097A7; /* color14 */
+@define-color bright_black #455A64; /* color8 */
+@define-color bright_red #1A237E; /* color9 */
+@define-color bright_green #1A237E; /* color10 */
+@define-color bright_yellow #1A237E; /* color11 */
+@define-color bright_blue #1A237E; /* color12 */
+@define-color bright_magenta #1A237E; /* color13 */
+@define-color bright_cyan #1A237E; /* color14 */
 @define-color bright_white #37474F; /* color15 */
 
 /* =============================================
@@ -40,7 +40,7 @@
  * ============================================= */
 @define-color accent_bg_color @blue;
 @define-color accent_fg_color @background;
-@define-color accent_color @red; /* #00BCD4 */
+@define-color accent_color @red; /* #1A237E */
 
 /* =============================================
  * Core UI Color Assignments

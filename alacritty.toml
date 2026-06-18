@@ -11,17 +11,17 @@ green = "#00838F"
 yellow = "#006064"
 blue = "#FF69B4"
 magenta = "#FF69B4"
-cyan = "#00838F"
+cyan = "#1A237E"
 white = "#455A64"
 
 [colors.bright]
-black = "#78909C"
+black = "#455A64"
 red = "#FF69B4"
 green = "#00838F"
 yellow = "#006064"
 blue = "#FF69B4"
 magenta = "#FF69B4"
-cyan = "#00838F"
+cyan = "#1A237E"
 white = "#37474F"
 
 [colors.cursor]
@@ -30,4 +30,4 @@ cursor = "#00838F"
 
 [colors.selection]
 text = "#E8FDFF"
-background = "#B2EBF2"
+background = "#1A237E"

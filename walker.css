@@ -1,10 +1,10 @@
 @define-color selected-text #FF69B4;
 @define-color text #2D2D2D;
 @define-color base #E8FDFF;
-@define-color border #00BCD4;
-@define-color foreground #00BCD4;
+@define-color border #1A237E;
+@define-color foreground #1A237E;
 @define-color background #E8FDFF;
-@define-color selection_bg #B2EBF2;
+@define-color selection_bg #1A237E;
 
 window .box-wrapper {
   background: alpha(@base, 0.5);
@@ -74,7 +74,7 @@ child:selected .item-box {
 .keybind-bind,
 .keybind-label {
   border-radius: 8px;
-  background-color: #b2fff3;
+  background-color: #1A237E;
   color: @base;
   font-weight: bold;
   font-size: 12px;

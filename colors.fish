@@ -3,11 +3,11 @@ set -l foreground 2D2D2D
 set -l selection B2EBF2
 set -l comment 607D8B
 set -l red FF69B4
-set -l orange 00BCD4
-set -l yellow 00ACC1
-set -l green 0097A7
+set -l orange 1A237E
+set -l yellow 1A237E
+set -l green 1A237E
 set -l purple FF69B4
-set -l cyan 00BCD4
+set -l cyan 1A237E
 set -l pink FF69B4
 
 set -g fish_color_normal $foreground

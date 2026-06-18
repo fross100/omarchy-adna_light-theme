@@ -1,11 +1,12 @@
-## Preview
-![Adna Theme Preview](preview2.png)
-![Adna Theme Preview](preview3.png)
+# Omarchy Adna Light
 
-**Adna** is a rice theme for Omarchy with custom waybar configs from [waybar-configs](https://github.com/fross100/waybar-configs), featuring a fresh cyan and pink color scheme. This is my first theme rice for Omarchy - I simply enjoy cyan and pink colors, so I put them together to create something pleasant and fun to use in my daily setup.
+![Adna Light Theme Preview](preview2.png)
+![Adna Light Theme Preview](preview3.png)
+
+**Adna Light** is a light theme for Omarchy featuring a dark blue and pink color scheme. This theme provides a clean, readable light interface with custom waybar configs from [waybar-configs](https://github.com/fross100/waybar-configs).
 
 ## Installation
-To install this theme, simply use the omarchy-theme-install command:
+To install this theme, use the omarchy-theme-install command:
 ```bash
 omarchy-theme-install https://github.com/fross100/omarchy-adna-theme.git
 ```
@@ -13,28 +14,28 @@ omarchy-theme-install https://github.com/fross100/omarchy-adna-theme.git
 ## Color Scheme
 | Color Role           | Hex Value  |
 |----------------------|------------|
-| Accent               | `#00BCD4`  |
-| Cursor               | `#00E5FF`  |
-| Foreground           | `#FF69B4`  |
-| Background           | `#1A1620`  |
-| Selection Foreground | `#FFB6C1`  |
-| Selection Background | `#003333`  |
-| Black (color0)       | `#008B8B`  |
-| Red (color1)         | `#00BCD4`  |
-| Green (color2)       | `#00E5FF`  |
-| Yellow (color3)      | `#00E5FF`  |
-| Blue (color4)        | `#00E5FF`  |
-| Magenta (color5)     | `#00BCD4`  |
-| Cyan (color6)        | `#00E5FF`  |
-| White (color7)       | `#FFB6C1`  |
-| Bright Black (color8) | `#008B8B`  |
-| Bright Red (color9)  | `#00E5FF`  |
-| Bright Green (color10)| `#00E5FF`  |
-| Bright Yellow (color11)| `#00E5FF` |
-| Bright Blue (color12)| `#00E5FF`  |
-| Bright Magenta (color13)| `#00BCD4`|
-| Bright Cyan (color14)| `#00E5FF`  |
-| Bright White (color15)| `#FFC0CB` |
+| Background           | `#E8FDFF`  |
+| Foreground           | `#2D2D2D`  |
+| Accent               | `#1A237E`  |
+| Cursor               | `#00838F`  |
+| Selection Background | `#1A237E`  |
+| Selection Foreground | `#2D2D2D`  |
+| Black (color0)       | `#607D8B`  |
+| Red (color1)         | `#1A237E`  |
+| Green (color2)       | `#1A237E`  |
+| Yellow (color3)      | `#1A237E`  |
+| Blue (color4)        | `#1A237E`  |
+| Magenta (color5)     | `#1A237E`  |
+| Cyan (color6)        | `#1A237E`  |
+| White (color7)       | `#455A64`  |
+| Bright Black (color8)| `#78909C`  |
+| Bright Red (color9)  | `#1A237E`  |
+| Bright Green (color10)| `#1A237E` |
+| Bright Yellow (color11)| `#1A237E`|
+| Bright Blue (color12)| `#1A237E`  |
+| Bright Magenta (color13)| `#1A237E`|
+| Bright Cyan (color14)| `#1A237E`  |
+| Bright White (color15)| `#37474F` |
 
 ## Backgrounds
 | BG01 | BG02 | BG03 |
