@@ -4,27 +4,27 @@
 
 theme[main_bg]="#F0F3FF"
 theme[main_fg]="#211951"
-theme[title]="#614FC9"
+theme[title]="#15F5BA"
 theme[hi_fg]="#15F5BA"
 theme[selected_fg]="#F0F3FF"
 theme[selected_bg]="#836FFF"
 theme[inactive_fg]="#5A527F"
 theme[proc_misc]="#5A527F"
-theme[cpu_box]="#836FFF"
-theme[mem_box]="#614FC9"
-theme[net_box]="#06926D"
+theme[cpu_box]="#15F5BA"
+theme[mem_box]="#15F5BA"
+theme[net_box]="#15F5BA"
 theme[proc_box]="#15F5BA"
 theme[div_line]="#D8DFFD"
 
-# Temperature gradient (cool to hot)
-theme[temp_start]="#06926D"
-theme[temp_mid]="#B8860B"
-theme[temp_end]="#C71F4A"
+# Temperature gradient (purples)
+theme[temp_start]="#382988"
+theme[temp_mid]="#614FC9"
+theme[temp_end]="#836FFF"
 
-# CPU gradient (analogous purples - low to high)
-theme[cpu_start]="#614FC9"
-theme[cpu_mid]="#836FFF"
-theme[cpu_end]="#C71F4A"
+# CPU gradient (purples)
+theme[cpu_start]="#382988"
+theme[cpu_mid]="#614FC9"
+theme[cpu_end]="#836FFF"
 
 # Free memory (mint success)
 theme[free_start]="#53F7CC"
