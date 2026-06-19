@@ -21,10 +21,10 @@ theme[temp_start]="#382988"
 theme[temp_mid]="#614FC9"
 theme[temp_end]="#836FFF"
 
-# CPU gradient (purples)
-theme[cpu_start]="#382988"
-theme[cpu_mid]="#614FC9"
-theme[cpu_end]="#836FFF"
+# CPU gradient (accent)
+theme[cpu_start]="#15F5BA"
+theme[cpu_mid]="#06926D"
+theme[cpu_end]="#06926D"
 
 # Free memory (mint success)
 theme[free_start]="#53F7CC"
@@ -41,10 +41,10 @@ theme[available_start]="#836FFF"
 theme[available_mid]="#614FC9"
 theme[available_end]="#382988"
 
-# Used (warning to error gradient)
-theme[used_start]="#B8860B"
-theme[used_mid]="#C71F4A"
-theme[used_end]="#382988"
+# Used (accent)
+theme[used_start]="#15F5BA"
+theme[used_mid]="#06926D"
+theme[used_end]="#06926D"
 
 # Download (mint accent - positive action)
 theme[download_start]="#53F7CC"
