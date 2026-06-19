@@ -1,12 +1,12 @@
-@define-color bg #E8FDFF;
-@define-color fg #1A237E;
-@define-color gray1 #607D8B;
-@define-color gray2 #455A64;
-@define-color gray3 #1A237E;
-@define-color gray5 #1A237E;
-@define-color fg_bright #FF69B4;
-@define-color selection_bg #1A237E;
-@define-color selection_fg #2D2D2D;
+@define-color bg #F0F3FF;
+@define-color fg #211951;
+@define-color gray1 #5A527F;
+@define-color gray2 #836FFF;
+@define-color gray3 #211951;
+@define-color gray5 #614FC9;
+@define-color fg_bright #15F5BA;
+@define-color selection_bg #836FFF;
+@define-color selection_fg #F0F3FF;
 
 window {
     background-color: @bg;
@@ -46,5 +46,5 @@ scrollbar slider {
 }
 
 scrollbar slider:hover {
-    background-color: @gray3;
+    background-color: @gray5;
 }

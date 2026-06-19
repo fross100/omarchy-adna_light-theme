@@ -1,10 +1,12 @@
-@define-color selected-text #FF69B4;
-@define-color text #2D2D2D;
-@define-color base #E8FDFF;
-@define-color border #1A237E;
-@define-color foreground #1A237E;
-@define-color background #E8FDFF;
-@define-color selection_bg #1A237E;
+@define-color selected-text #15F5BA;
+@define-color text #211951;
+@define-color base #F0F3FF;
+@define-color border #D8DFFD;
+@define-color foreground #5A527F;
+@define-color background #F0F3FF;
+@define-color selection_bg #836FFF;
+@define-color selection_fg #F0F3FF;
+@define-color muted #5A527F;
 
 window .box-wrapper {
   background: alpha(@base, 0.5);
@@ -35,14 +37,14 @@ window .search-container text,
 window .input {
   background: transparent;
   padding: 0px 0px;
-  color: @foreground;
-  caret-color: @text;
+  color: @base;
+  caret-color: @base;
   margin: 0px;
 }
 
 window .search-container .placeholder,
 window .search-container entry placeholder {
-  color: @foreground;
+  color: alpha(@base, 0.7);
   opacity: 1;
   margin: 0px;
 }
@@ -64,7 +66,7 @@ child:selected {
 }
 
 child:selected .item-box {
-  color: @foreground;
+  color: @text;
   padding-top: 0px;
   margin-left: 0px;
   margin: 0px 0px 0px 0px;
@@ -74,7 +76,7 @@ child:selected .item-box {
 .keybind-bind,
 .keybind-label {
   border-radius: 8px;
-  background-color: #1A237E;
+  background-color: #614FC9;
   color: @base;
   font-weight: bold;
   font-size: 12px;

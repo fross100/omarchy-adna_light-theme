@@ -3,44 +3,46 @@
  * Based on Adna color scheme (https://github.com/fross100/omarchy-adna-theme)
  * Features:
  * - Solid non-transparent title bar
- * - Light readable text for all UI elements (sidebar, file content, etc.)
+ * - Analogous purple palette with mint (#15F5BA) complementary accent
+ * - Dark readable text for all UI elements (sidebar, file content, etc.)
  * - Rounded top (headerbar) buttons with 8px corners
  */
 
 /* =============================================
  * Base Color Definitions (matches adna/colors.toml)
  * ============================================= */
-@define-color background #E8FDFF;
-@define-color foreground #2D2D2D; /* Alias for light_text - used by nautilus-finder hook */
-@define-color pink_accent #FF69B4; /* Original foreground, reserved for accents only */
-@define-color light_text #2D2D2D; /* Readable dark text for all UI text */
-@define-color selection_bg #1A237E;
-@define-color selection_fg #2D2D2D;
+@define-color background #F0F3FF;
+@define-color foreground #211951; /* Alias for light_text - used by nautilus-finder hook */
+@define-color pink_accent #15F5BA; /* Accent green */
+@define-color pink_accent_dark #00D19B; /* Darker green for hover/pressed states */
+@define-color light_text #211951; /* Maximum-contrast dark text for all UI text */
+@define-color selection_bg #836FFF;
+@define-color selection_fg #F0F3FF;
 
 /* ANSI Color Palette (matches colors.toml) */
-@define-color black #607D8B; /* color0 */
-@define-color red #1A237E; /* color1 (accent color) */
-@define-color green #1A237E; /* color2 */
-@define-color yellow #1A237E; /* color3 */
-@define-color blue #1A237E; /* color4 */
-@define-color magenta #1A237E; /* color5 */
-@define-color cyan #1A237E; /* color6 */
-@define-color white #455A64; /* color7 */
-@define-color bright_black #455A64; /* color8 */
-@define-color bright_red #1A237E; /* color9 */
-@define-color bright_green #1A237E; /* color10 */
-@define-color bright_yellow #1A237E; /* color11 */
-@define-color bright_blue #1A237E; /* color12 */
-@define-color bright_magenta #1A237E; /* color13 */
-@define-color bright_cyan #1A237E; /* color14 */
-@define-color bright_white #37474F; /* color15 */
+@define-color black #211951; /* color0 */
+@define-color red #15F5BA; /* color1 (accent color) */
+@define-color green #836FFF; /* color2 */
+@define-color yellow #211951; /* color3 */
+@define-color blue #836FFF; /* color4 */
+@define-color magenta #15F5BA; /* color5 */
+@define-color cyan #211951; /* color6 */
+@define-color white #836FFF; /* color7 */
+@define-color bright_black #836FFF; /* color8 */
+@define-color bright_red #15F5BA; /* color9 */
+@define-color bright_green #211951; /* color10 */
+@define-color bright_yellow #211951; /* color11 */
+@define-color bright_blue #211951; /* color12 */
+@define-color bright_magenta #15F5BA; /* color13 */
+@define-color bright_cyan #211951; /* color14 */
+@define-color bright_white #211951; /* color15 */
 
 /* =============================================
  * Accent Colors
  * ============================================= */
 @define-color accent_bg_color @blue;
 @define-color accent_fg_color @background;
-@define-color accent_color @red; /* #1A237E */
+@define-color accent_color @pink_accent; /* #15F5BA */
 
 /* =============================================
  * Core UI Color Assignments
@@ -60,7 +62,7 @@
 @define-color sidebar_shade_color @background;
 
 /* Title Bar (Headerbar) - SOLID, NO TRANSPARENCY */
-@define-color headerbar_bg_color #EEEEEE; /* Slightly darker than background, fully opaque */
+@define-color headerbar_bg_color #D8DFFD; /* Slightly darker than background */
 @define-color headerbar_fg_color @light_text;
 @define-color headerbar_backdrop_color @background;
 @define-color headerbar_shade_color @background;
@@ -71,14 +73,18 @@
 @define-color popover_bg_color #FFFFFF;
 @define-color popover_fg_color @light_text;
 
-/* Status Colors */
-@define-color destructive_bg_color @red;
+/* Status Colors (semantic, derived from color theory) */
+@define-color error_red #C71F4A;
+@define-color warning_amber #B8860B;
+@define-color success_mint #06926D;
+@define-color info_purple #614FC9;
+@define-color destructive_bg_color @error_red;
 @define-color destructive_fg_color @background;
-@define-color success_bg_color @green;
+@define-color success_bg_color @success_mint;
 @define-color success_fg_color @background;
-@define-color warning_bg_color @yellow;
+@define-color warning_bg_color @warning_amber;
 @define-color warning_fg_color @background;
-@define-color error_bg_color @red;
+@define-color error_bg_color @error_red;
 @define-color error_fg_color @background;
 
 /* Dialogs */
@@ -88,7 +94,7 @@
 /* Borders */
 @define-color borders alpha(@light_text, 0.2);
 
-/* Legacy GTK Theme Colors (fixed pink text) */
+/* Legacy GTK Theme Colors */
 @define-color theme_fg_color @light_text;
 @define-color theme_text_color @light_text;
 @define-color theme_bg_color @background;
@@ -106,10 +112,10 @@
 @define-color theme_unfocused_selected_fg_color @selection_fg;
 @define-color unfocused_insensitive_color @bright_black;
 @define-color unfocused_borders alpha(@light_text, 0.15);
-@define-color warning_color @yellow;
-@define-color error_color @red;
-@define-color success_color @green;
-@define-color destructive_color @red;
+@define-color warning_color @warning_amber;
+@define-color error_color @error_red;
+@define-color success_color @success_mint;
+@define-color destructive_color @error_red;
 
 /* Text Views */
 @define-color text_color @light_text;
@@ -196,7 +202,7 @@ toast {
 
 toast button.circular.flat.image-button:hover {
   color: @background;
-  background-color: @red;
+  background-color: @pink_accent;
 }
 
 /* =============================================

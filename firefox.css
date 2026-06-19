@@ -1,18 +1,20 @@
 :root {
-  --color00: #E8FDFF; /* base background */
+  /* Semantic color palette based on color theory */
+  /* Base: analogous purples (248-249° hue) + mint complement (164°) */
+  --color00: #F0F3FF; /* base background */
   --color01: #FFFFFF; /* elevated background */
-  --color02: #E0E0E0; /* subtle borders */
-  --color03: #607D8B; /* muted text */
-  --color04: #FF69B4; /* secondary text */
-  --color05: #2D2D2D; /* primary text */
-  --color06: #1A237E; /* highlights */
-  --color07: #455A64; /* pure dark */
-  --color08: #FF69B4; /* red - accent pink */
-  --color09: #1A237E; /* cyan - accent cyan */
-  --color0A: #1A237E; /* yellow - lighter cyan */
-  --color0B: #FF69B4; /* green - accent pink */
-  --color0C: #607D8B; /* cyan - gray */
-  --color0D: #FF69B4; /* blue - accent pink */
-  --color0E: #455A64; /* magenta - darker gray */
-  --color0F: #FF1493; /* bright red - deep pink */
+  --color02: #D8DFFD; /* subtle borders */
+  --color03: #5A527F; /* muted text */
+  --color04: #836FFF; /* secondary text */
+  --color05: #211951; /* primary text */
+  --color06: #836FFF; /* highlights */
+  --color07: #211951; /* pure dark */
+  --color08: #C71F4A; /* red - error */
+  --color09: #211951; /* dark purple - terminal black */
+  --color0A: #614FC9; /* mid purple - terminal blue */
+  --color0B: #06926D; /* dark mint - terminal green */
+  --color0C: #211951; /* dark purple - terminal cyan */
+  --color0D: #836FFF; /* primary purple - terminal magenta */
+  --color0E: #B8860B; /* amber - terminal yellow */
+  --color0F: #15F5BA; /* bright accent - mint */
 }

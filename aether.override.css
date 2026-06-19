@@ -3,30 +3,31 @@
  * when you apply a theme in Aether.
  *
  * Generated from palette colors selected in Aether
+ * Palette: analogous purple with mint complementary accent
  */
 
 /* Dynamic Color Palette */
-@define-color background #E8FDFF;
-@define-color foreground #FF69B4;
+@define-color background #F0F3FF;
+@define-color foreground #211951;
 
-@define-color black #607D8B;
-@define-color red #FF1493;
-@define-color green #1A237E;
-@define-color yellow #E65100;
-@define-color blue #1A237E;
-@define-color magenta #FF1493;
-@define-color cyan #1A237E;
-@define-color white #455A64;
-@define-color bright_black #455A64;
-@define-color bright_red #FF69B4;
-@define-color bright_green #1A237E;
-@define-color bright_yellow #E65100;
-@define-color bright_blue #1A237E;
-@define-color bright_magenta #FF1493;
-@define-color bright_cyan #1A237E;
-@define-color bright_white #1A1A1A;
-@define-color selection_bg #003333;
-@define-color selection_fg #FF69B4;
+@define-color black #211951;
+@define-color red #15F5BA;
+@define-color green #836FFF;
+@define-color yellow #211951;
+@define-color blue #836FFF;
+@define-color magenta #15F5BA;
+@define-color cyan #211951;
+@define-color white #836FFF;
+@define-color bright_black #836FFF;
+@define-color bright_red #15F5BA;
+@define-color bright_green #211951;
+@define-color bright_yellow #211951;
+@define-color bright_blue #211951;
+@define-color bright_magenta #15F5BA;
+@define-color bright_cyan #211951;
+@define-color bright_white #211951;
+@define-color selection_bg #836FFF;
+@define-color selection_fg #F0F3FF;
 
 /* Base GTK theme variables */
 @define-color theme_bg_color @background;
@@ -47,7 +48,7 @@
 
 /* Adwaita Color Overrides */
 @define-color accent_bg_color @blue;
-@define-color accent_fg_color @bright_white;
+@define-color accent_fg_color @background;
 @define-color accent_color @cyan;
 
 @define-color window_bg_color @background;
@@ -61,13 +62,13 @@
 @define-color sidebar_backdrop_color @background;
 @define-color sidebar_shade_color @background;
 
-@define-color headerbar_bg_color alpha(@foreground, 0.1);
+@define-color headerbar_bg_color alpha(@foreground, 0.06);
 @define-color headerbar_fg_color @foreground;
 @define-color headerbar_backdrop_color @background;
 @define-color headerbar_shade_color @background;
 @define-color headerbar_border_color alpha(@foreground, 0.15);
 
-@define-color card_bg_color alpha(@foreground, 0.1);
+@define-color card_bg_color alpha(@foreground, 0.04);
 @define-color card_fg_color @foreground;
 @define-color card_shade_color @background;
 
@@ -83,17 +84,17 @@
 @define-color dialog_bg_color @background;
 @define-color dialog_fg_color @foreground;
 
-@define-color destructive_bg_color @red;
-@define-color destructive_fg_color @bright_white;
+@define-color destructive_bg_color #C71F4A;
+@define-color destructive_fg_color @background;
 
-@define-color success_bg_color @green;
-@define-color success_fg_color @bright_white;
+@define-color success_bg_color #06926D;
+@define-color success_fg_color @background;
 
-@define-color warning_bg_color @yellow;
-@define-color warning_fg_color @bright_white;
+@define-color warning_bg_color #B8860B;
+@define-color warning_fg_color @background;
 
-@define-color error_bg_color @red;
-@define-color error_fg_color @bright_white;
+@define-color error_bg_color #C71F4A;
+@define-color error_fg_color @background;
 
 @define-color borders alpha(@foreground, 0.15);
 
@@ -135,8 +136,8 @@
 /* Dropdown/ComboBox colors */
 @define-color dropdown_bg_color @background;
 @define-color dropdown_fg_color @foreground;
-@define-color dropdown_hover_bg_color alpha(@blue, 0.3);
-@define-color dropdown_selected_bg_color @blue;
+@define-color dropdown_hover_bg_color alpha(#836FFF, 0.3);
+@define-color dropdown_selected_bg_color #836FFF;
 @define-color dropdown_selected_fg_color @selection_fg;
 
 /* Pathbar/Breadcrumb colors */
@@ -161,8 +162,8 @@
 @define-color treeview_fg_color @foreground;
 
 /* Link colors */
-@define-color link_color @blue;
-@define-color link_visited_color @magenta;
+@define-color link_color #614FC9;
+@define-color link_visited_color #15F5BA;
 
 /* Selection colors (for text selection, etc) */
 @define-color selection_bg_color @selection_bg;
@@ -181,8 +182,8 @@
 
 /* SVG Icons - recolor to match foreground text */
 .svg-icon {
-    filter: invert(79%) sepia(18%) saturate(611%) hue-rotate(192deg)
-        brightness(103%) contrast(94%);
+    filter: invert(11%) sepia(35%) saturate(847%) hue-rotate(166deg)
+        brightness(95%) contrast(96%);
 }
 
 /* Sharp corners, Hyprland-inspired */

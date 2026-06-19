@@ -1,26 +1,27 @@
 /**
  * @name Adna Light Discord Theme
  * @author mmishbah
- * @version 0.1.0
- * @description Adna light theme for Discord
+ * @version 0.3.0
+ * @description Adna light theme for Discord — analogous purple base + mint complementary accent
  * @source https://github.com/fross100/adna
  **/
 
 :root {
-    --color00: #E8FDFF;
-    --color01: #E0E0E0;
-    --color02: #1A237E;
-    --color03: #607D8B;
-    --color04: #FF69B4;
-    --color05: #1A237E;
-    --color06: #455A64;
-    --color07: #2D2D2D;
-    --color08: #455A64;
-    --color09: #1A237E;
-    --color10: #1A237E;
-    --color11: #1A237E;
-    --color12: #1A237E;
-    --color13: #FF69B4;
-    --color14: #1A237E;
-    --color15: #37474F;
+    /* Color theory based palette: analogous purples + mint complement */
+    --color00: #F0F3FF;  /* background */
+    --color01: #D8DFFD;  /* subtle elevated */
+    --color02: #211951;  /* primary text/dark */
+    --color03: #5A527F;  /* muted text */
+    --color04: #614FC9;  /* mid purple */
+    --color05: #211951;  /* dark purple */
+    --color06: #382988;  /* darker purple */
+    --color07: #211951;  /* darkest */
+    --color08: #836FFF;  /* primary purple */
+    --color09: #BCB2FF;  /* light purple */
+    --color10: #211951;  /* dark for contrast */
+    --color11: #211951;  /* dark */
+    --color12: #836FFF;  /* primary */
+    --color13: #15F5BA;  /* mint accent */
+    --color14: #06926D;  /* dark mint */
+    --color15: #211951;  /* darkest */
 }

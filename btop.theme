@@ -1,42 +1,57 @@
-theme[main_bg]="#E8FDFF"
-theme[main_fg]="#2D2D2D"
-theme[title]="#FF69B4"
-theme[hi_fg]="#1A237E"
-theme[proc_misc]="#FF69B4"
-theme[cpu_box]="#1A237E"
-theme[mem_box]="#1A237E"
-theme[net_box]="#1A237E"
-theme[proc_box]="#1A237E"
-theme[div_line]="#BDBDBD"
+# Adna Light Theme for btop
+# Analogous purple base + mint complementary accent (color theory based)
+# Background: #F0F3FF, Primary: #836FFF, Accent: #15F5BA, FG: #211951
 
-theme[temp_start]="#1A237E"
-theme[temp_mid]="#1A237E"
-theme[temp_end]="#FF69B4"
+theme[main_bg]="#F0F3FF"
+theme[main_fg]="#211951"
+theme[title]="#614FC9"
+theme[hi_fg]="#15F5BA"
+theme[selected_fg]="#F0F3FF"
+theme[selected_bg]="#836FFF"
+theme[inactive_fg]="#5A527F"
+theme[proc_misc]="#5A527F"
+theme[cpu_box]="#836FFF"
+theme[mem_box]="#614FC9"
+theme[net_box]="#06926D"
+theme[proc_box]="#15F5BA"
+theme[div_line]="#D8DFFD"
 
-theme[cpu_start]="#1A237E"
-theme[cpu_mid]="#1A237E"
-theme[cpu_end]="#FF69B4"
+# Temperature gradient (cool to hot)
+theme[temp_start]="#06926D"
+theme[temp_mid]="#B8860B"
+theme[temp_end]="#C71F4A"
 
-theme[free_start]="#607D8B"
-theme[free_mid]="#455A64"
-theme[free_end]="#607D8B"
+# CPU gradient (analogous purples - low to high)
+theme[cpu_start]="#614FC9"
+theme[cpu_mid]="#836FFF"
+theme[cpu_end]="#C71F4A"
 
-theme[cached_start]="#FF69B4"
-theme[cached_mid]="#FF69B4"
-theme[cached_end]="#FF69B4"
+# Free memory (mint success)
+theme[free_start]="#53F7CC"
+theme[free_mid]="#15F5BA"
+theme[free_end]="#06926D"
 
-theme[available_start]="#1A237E"
-theme[available_mid]="#1A237E"
-theme[available_end]="#607D8B"
+# Cached (subtle purple)
+theme[cached_start]="#BCB2FF"
+theme[cached_mid]="#836FFF"
+theme[cached_end]="#614FC9"
 
-theme[used_start]="#FF69B4"
-theme[used_mid]="#FF69B4"
-theme[used_end]="#607D8B"
+# Available (mid to dark purple)
+theme[available_start]="#836FFF"
+theme[available_mid]="#614FC9"
+theme[available_end]="#382988"
 
-theme[download_start]="#1A237E"
-theme[download_mid]="#1A237E"
-theme[download_end]="#FF69B4"
+# Used (warning to error gradient)
+theme[used_start]="#B8860B"
+theme[used_mid]="#C71F4A"
+theme[used_end]="#382988"
 
-theme[upload_start]="#1A237E"
-theme[upload_mid]="#1A237E"
-theme[upload_end]="#FF69B4"
+# Download (mint accent - positive action)
+theme[download_start]="#53F7CC"
+theme[download_mid]="#15F5BA"
+theme[download_end]="#06926D"
+
+# Upload (purple - distinguishing from download)
+theme[upload_start]="#836FFF"
+theme[upload_mid]="#614FC9"
+theme[upload_end]="#382988"
