@@ -4,7 +4,7 @@
 
 theme[main_bg]="#F0F3FF"
 theme[main_fg]="#211951"
-theme[title]="#15F5BA"
+theme[title]="#836FFF"
 theme[hi_fg]="#15F5BA"
 theme[selected_fg]="#F0F3FF"
 theme[selected_bg]="#836FFF"
