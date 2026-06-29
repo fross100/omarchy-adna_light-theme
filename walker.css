@@ -9,9 +9,9 @@
 @define-color muted #5A527F;
 
 window .box-wrapper {
-  background: alpha(@base, 0.5);
+  background: alpha(@base, 0.7);
   border: 0px;
-  border-radius: 12px;
+  border-radius: 22px;
   padding: 0px;
   margin: 25px;
   backdrop-filter: blur(1px);
@@ -76,7 +76,7 @@ child:selected .item-box {
 .keybind-bind,
 .keybind-label {
   border-radius: 8px;
-  background-color: #614FC9;
+  background-color: #614fc9;
   color: @base;
   font-weight: bold;
   font-size: 12px;
