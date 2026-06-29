@@ -127,9 +127,6 @@
 /* =============================================
  * Global Styles
  * ============================================= */
-:root {
-  color-scheme: light;
-}
 
 /* Default: no rounded corners for all elements */
 * {
@@ -283,7 +280,6 @@ NautilusWindow,
 #NautilusWindow {
   color: @light_text;
   background-color: @background;
-  color-scheme: light;
 }
 
 /* Sidebar */
